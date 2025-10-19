@@ -1,0 +1,36 @@
+{
+  "name": "UAH DAO Humanitarian Assets",
+  "timestamp": "2025-10-16T21:31:51+02:00", // ТЕКУЩЕЕ ВРЕМЯ
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": ["humanitarian", "dao", "utility", "bsc", "uah"],
+  "logoURI": "https://raw.githubusercontent.com/kryugger/uah-dao-token-list/main/logo.png", // Запланированная ссылка
+  "tags": {
+    "humanitarian": {
+      "name": "Humanitarian Aid",
+      "description": "Tokens explicitly supporting global humanitarian and social missions."
+    }
+  },
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0xB01168Bf3Ff913d077E28E993bF1777D4387E98b",
+      "symbol": "UAH",
+      "name": "UAH DAO Token",
+      "decimals": 18,
+      "logoURI": "ipfs://ваш-ipfs-хеш-для-логотипа",
+      "tags": ["humanitarian"]
+    },
+    {
+      "chainId": 56,
+      "address": "0xbb4CdB9eD5B5dE9a8abC4Bf4b7cBC432AD5bbF4",
+      "symbol": "WBNB",
+      "name": "Wrapped BNB",
+      "decimals": 18,
+      "logoURI": "https://tokens.pancakeswap.finance/images/0xbb4cdb9ed5b5de9a8abc4bf4b7cbcf432ad5bbf4.png"
+    }
+  ]
+}
